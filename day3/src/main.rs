@@ -12,7 +12,7 @@ fn main() -> io::Result<()> {
 }
 
 fn part2() -> io::Result<()> {
-    let path = "/Users/ryanclulo/Personal Documents/advent_of_code/day3/input.txt";
+    let path = "./input.txt";
     let string = fs::read_to_string(path)?;
 
     // let string = "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))";
@@ -45,7 +45,7 @@ fn part2() -> io::Result<()> {
 }
 
 fn part1() -> io::Result<()> {
-    let path = "/Users/ryanclulo/Personal Documents/advent_of_code/day3/input.txt";
+    let path = "./input.txt";
 
     let regex = Regex::new(r"(?m)mul\((?P<num1>\d{1,3}),(?P<num2>\d{1,3})\)").unwrap();
     // let string = "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))";

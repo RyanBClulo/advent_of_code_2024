@@ -57,11 +57,11 @@ fn main() -> io::Result<()> {
         Ok(safe)
     }
 
-    let sample = "/Users/ryanclulo/Personal Documents/advent_of_code/day2/sample.txt";
+    let sample = "./sample.txt";
     let sample_result: i32 = analyze_report(sample)?;
     println!("Part 1 Sample: {}", sample_result);
 
-    let input = "/Users/ryanclulo/Personal Documents/advent_of_code/day2/input.txt";
+    let input = "./input.txt";
     let input_result = analyze_report(input)?;
     println!("Part 1 Input: {}", input_result);
 

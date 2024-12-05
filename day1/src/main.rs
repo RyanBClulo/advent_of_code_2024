@@ -3,7 +3,7 @@ use std::io::{self, BufRead};
 
 fn main() -> io::Result<()> {
     // Specify the path to the file
-    let path = "/Users/ryanclulo/Personal Documents/advent_of_code/day1/input.txt";
+    let path = "./input.txt";
     // Open the file
     let file = File::open(&path)?;
     // Use a BufReader to read the file line by line
