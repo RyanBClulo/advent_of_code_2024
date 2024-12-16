@@ -48,7 +48,7 @@ fn compress_blocks(disk_ids: &mut Vec<i32>) {
     println!("Last {} {} {:?}", empty, last, disk_ids)
 }
 
-#[warn(dead_code)] // Part 2 to be continued
+#[allow(dead_code)] // Part 2 to be continued
 fn compress_files() {
 
 }

@@ -93,6 +93,7 @@ impl Robot {
     }
 }
 
+#[allow(dead_code)]
 fn display_robots(robots: &Vec<Robot>) {
     for robot in robots {
         println!("{}", robot);
